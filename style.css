@@ -1,12 +1,13 @@
 body{
-    background-color: beige; 
-       
+    background-color: beige; /*Sivuston taustan väri*/
+    
 }
-main{
+
+main{       /*Tekstien ja sivun reunan väli*/
     margin-left: 20px;
     margin-right: 20px;
 }
-h1{
+h1{         /*Pääotsikon(h1) ja väliotsikon(h3) ulkoasu ja lokaatio */
     text-align: center;
     color:black;
     font-family: "anton";
@@ -14,7 +15,7 @@ h1{
 h3{
     text-align: center;
 }
-.navbar ul{
+.navbar ul{     /*Navigaatiopalkin ulkoasu*/
     list-style-type: none;
     background-color: rgb(172, 160, 141);
     padding: 0px;
@@ -35,9 +36,26 @@ h3{
 .navbar li{
     float: left;
 }
-p{
+p{          /*Leipätekstin ulkoasu*/
     color:black;
     font-family: "Open Sans" "consolas", sans-serif;
     text-align: center;
     
+}
+img{ /*Kuvien maksimileveys*/
+    max-width: 100%; 
+
+}
+.container{
+    padding: 0 1em;
+    max-width: 60rem;
+}
+header{ 
+    min: height 300px; ;
+}
+.center{ /*Sivujen kuvien asettelu*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
