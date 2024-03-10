@@ -42,7 +42,7 @@ p{          /*Leipätekstin ulkoasu*/
     text-align: center;
     
 }
-img{ /*Kuvien maksimileveys*/
+img{        /*Kuvien maksimileveys*/
     max-width: 100%; 
 
 }
@@ -51,7 +51,7 @@ img{ /*Kuvien maksimileveys*/
     max-width: 60rem;
 }
 header{ 
-    min: height 300px; ;
+    min-height 300px;
 }
 .center{ /*Sivujen kuvien asettelu*/
     display: block;
